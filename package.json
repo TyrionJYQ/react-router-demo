@@ -1,12 +1,24 @@
 {
   "name": "react-router-demo",
   "version": "1.0.0",
-  "description": "demo for react-router",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js --colors  --display-reasons --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "antd": "^3.15.2",
+    "axios": "^0.18.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.2"
   },
   "repository": {
     "type": "git",
@@ -18,13 +30,5 @@
   "bugs": {
     "url": "https://github.com/TyrionJYQ/react-router-demo/issues"
   },
-  "homepage": "https://github.com/TyrionJYQ/react-router-demo#readme",
-  "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "babel-loader": "^8.0.5",
-    "babel-preset-env": "^1.7.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
-  }
+  "homepage": "https://github.com/TyrionJYQ/react-router-demo#readme"
 }
